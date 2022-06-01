@@ -129,7 +129,7 @@ ul, li {
   background-image: url("./../images/cofe-one.png");
   width: 1280px;
   height: 600px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 136px;
 }
 
@@ -504,4 +504,221 @@ ul, li {
 
 .end__list-item{
   margin-right: 24px;
+}
+
+/* About-us */
+
+.about__container{
+  margin: 0;
+  padding: 0;
+  background-image: url("./../images/cofe_teo.png");
+  width: 1280px;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 167px;
+}
+
+.about__information{
+  margin: 0;
+  padding: 0;
+  padding: 136px 750px 138px 85px;
+}
+
+.about__container-heading{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;  
+  width: 188px;
+  margin-bottom: 24px;
+}
+
+.about__container-text{
+  margin: 0;
+  padding: 0;
+  width: 445px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;  
+}
+
+/* Our commitment */
+
+.commitment__container{
+  display: flex;
+  align-items: center;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 256px;
+}
+
+.commitment__left-img{
+  margin: 0;
+  padding: 0;
+  width: 445px;
+  height: 520px;
+  border-radius: 10px;
+  margin-right: 125px;
+}
+
+.commitment__heading{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B; 
+  width: 357px;
+  margin-bottom: 32px; 
+}
+
+.commitment__text{
+  margin: 0;
+  padding: 0;
+  width: 540px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* Quality */
+
+.quality__container{
+  position: relative;
+  background: #2C343E;
+  border-radius: 10px;  
+  padding: 88px 655px 176px 85px;
+  margin-bottom: 168px;
+}
+
+.quality__heading{
+  margin: 0;
+  padding: 0;
+  width: 517px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.quality__text{
+  margin: 0;
+  padding: 0;
+  width: 540px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;  
+}
+
+.quality__img{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 445px;
+  height: 474px;
+  top: -88px;
+  left: 750px;
+  border-radius: 10px;
+}
+
+/* Headequarts */
+
+.headquarts__container{
+  width: 1095px;
+  margin-left: 165px;
+  margin-bottom: 168px;
+}
+
+.headquarts__heading{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;  
+  margin-bottom: 72px;
+}
+
+.headquarts__list{
+  display: flex;
+  align-items: center;
+}
+
+.headquarts__list-item{
+  margin: 0;
+  padding: 0;
+  width: 285px;
+  margin-right: 95px;
+}
+
+.headquarts__list-item::before{
+  content: "";
+  display: inline-block;
+  width: 52px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 45px;
+}
+
+.headquarts__list-item:nth-child(1)::before{
+  background-image: url("./../images/xarita1.svg");
+}
+
+.headquarts__list-item:nth-child(2)::before{
+  background-image: url("./../images/xarita2.svg");
+}
+
+.headquarts__list-item:nth-child(3)::before{
+  background-image: url("./../images/xarita3.svg");
+}
+
+.headquarts__list-item--heading{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;  
+  margin-bottom: 24px;
+  width: 272px;
+}
+
+.headquarts__list-item--text{
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;  
 }
